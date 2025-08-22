@@ -58,7 +58,7 @@ object cuero {
   } 
 }
 object remera {
-  method peso(){
+  method peso() {
     return 800
   }
   method material() {
@@ -68,29 +68,29 @@ object remera {
     return rojo
   }
 }
-object pelota{
-  method peso(){
+object pelota {
+  method peso() {
     return 1300
   }
-  method material(){
+  method material() {
     return cuero
   }
   method color() {
     return pardo
   }
 }
-object biblioteca{
-  method peso(){
+object biblioteca {
+  method peso() {
     return 8000
   }
-  method material(){
+  method material() {
     return madera
   }
   method color() {
     return verde
   }
 }
-object munieco{
+object munieco {
   var peso = 10
 
   method peso(unPeso) {
@@ -101,7 +101,7 @@ object munieco{
     return peso
   }
   
-  method material(){
+  method material() {
     return vidrio
   }
   method color() {
@@ -113,19 +113,19 @@ object placaDeCobre {
   
   var color = verde
   
-  method peso(unPeso){
+  method peso(unPeso) {
     peso = unPeso
   }
 
-  method color(unColor){
+  method color(unColor) {
     color = unColor
   }
 
-  method peso(){
+  method peso() {
     return peso
   }
 
-  method color(){
+  method color() {
     return color
   }
 }
@@ -135,7 +135,7 @@ object arito {
     return 180
   }
   
-  method material(){
+  method material() {
     return cobre
   }
 
@@ -178,7 +178,7 @@ object cajita {
     return rojo
   }
 
-  method objetoAdentro(unaCosa){
+  method objetoAdentro(unaCosa) {
     objetoAdentro = unaCosa
   }
 
